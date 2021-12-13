@@ -1,3 +1,4 @@
+/* LAYOUT */
 .header-top{
     min-height: 50px;
     border: 1px dashed black;
@@ -15,4 +16,11 @@
 }
 [class^='col'] {
     border: 1px dashed blue;
+}
+/* CONTENT */
+.bg-black{
+    background-color: black;
+}
+#header-logo{
+    width: 80px;
 }
