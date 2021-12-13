@@ -6,16 +6,13 @@
     min-height: 100px;
     border: 1px dashed red;
 }
-#jumbatron{
+.jumbatron{
     min-height: 500px;
     border: 1px dashed green;
 }
 .row{
     border: 1px dashed purple;
 }
-.col{
+[class^='col'] {
     border: 1px dashed blue;
-}
-.col-6{
-    border: 1px dashed orangered;
 }
