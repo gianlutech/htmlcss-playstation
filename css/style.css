@@ -1,0 +1,18 @@
+.header-top{
+    min-height: 50px;
+    border: 1px dashed black;
+}
+.header-bottom{
+    min-height: 100px;
+    border: 1px dashed red;
+}
+#jumbatron{
+    min-height: 500px;
+    border: 1px dashed green;
+}
+.row{
+    border: 1px dashed purple;
+}
+.col{
+    border: 1px dashed blue;
+}
