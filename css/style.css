@@ -16,3 +16,6 @@
 .col{
     border: 1px dashed blue;
 }
+.col-6{
+    border: 1px dashed orangered;
+}
