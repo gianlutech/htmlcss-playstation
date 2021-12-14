@@ -1,26 +1,61 @@
 /* LAYOUT */
 .header-top{
-    min-height: 50px;
-    border: 1px dashed black;
+    height: 40px;
+    
 }
 .header-bottom{
-    min-height: 100px;
-    border: 1px dashed red;
+    height: 70px;
 }
 .jumbatron{
     min-height: 500px;
-    border: 1px dashed green;
+    
 }
-.row{
-    border: 1px dashed purple;
-}
-[class^='col'] {
-    border: 1px dashed blue;
-}
+
+
+
 /* CONTENT */
+body{
+    padding-top: 115px;
+}
 .bg-black{
     background-color: black;
 }
+.bg-orange{
+    background-color: #CD3D0F;
+}
+.bg-grey{
+    background-color: #BEBCBB;
+}
+.bg-light-grey{
+    background-color: #D9DADC;
+}
+.text-black{
+    color: black;
+}
+.text-blue{
+    color: #1F83D3;
+}
+
 #header-logo{
     width: 80px;
 }
+#arrow-down{
+    width: 10px;
+}
+#lens{
+    width: 30px;
+}
+.jumbo-shop{
+    background-image: url(../img/jumbo-bg.png);
+}
+.jumbo-adventure{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.jumbo{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
