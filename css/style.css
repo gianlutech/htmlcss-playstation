@@ -1,7 +1,9 @@
 /* LAYOUT */
+body{
+    padding-top: 115px;
+}
 .header-top{
-    height: 40px;
-    
+    height: 40px; 
 }
 .header-bottom{
     height: 70px;
@@ -11,13 +13,7 @@
     background-position: top;
     background-repeat: no-repeat;  
 }
-
-
-
 /* CONTENT */
-body{
-    padding-top: 115px;
-}
 .border-blue{
     border-bottom: 3px solid #1F83D3;
 }
@@ -45,7 +41,6 @@ body{
 .text-blue{
     color: #1F83D3;
 }
-
 #header-logo{
     width: 80px;
 }
@@ -54,21 +49,20 @@ body{
 }
 #lens{
     width: 30px;
+    cursor: pointer;
 }
 #globe{
-  width: 25px;  
+  width: 20px;  
 }
 #sie-logo{
     width: 200px;
 }
 .jumbo-shop{
-    background-image: url(../img/jumbo-bg.png);
-    
+    background-image: url(../img/jumbo-bg.png);   
 }
 .jumbo-adventure{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
-
 .pt-150{
     padding-top: 150px;
 }
